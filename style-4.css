@@ -1,0 +1,347 @@
+/* banner section start here */
+.banner-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #3385ff, #0052cc);
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.banner-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
+
+.shop-button {
+    background-color: orange;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.shop-button:hover {
+    background-color: darkorange;
+}
+
+/* banner section sending here */
+/* my cart 3 section starting */
+.my-cart3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.mycart3-left {
+    width: 72%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+}
+
+
+
+.img-left {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-sec img {
+    border-radius: 3px;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+}
+
+.details-left-side {
+    margin-left: 1rem;
+}
+
+.details-left-side h4 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1C;
+}
+
+.details-left-side p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B96A5;
+}
+
+.btn1-mycart {
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    color: #FA3434;
+    border: 1px solid #DEE2E7;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.btn2-mycart {
+    width: 103px;
+    height: 30px;
+    border-radius: 6px;
+    color: #0D6EFD;
+    border: 1px solid #DEE2E7;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.price-left-end {
+    margin-left: auto;
+}
+
+.para-left {
+    text-align: right;
+}
+
+.para-left p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1C1C;
+    font-weight: bold;
+}
+
+.buttons-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1-style {
+    width: 159px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: primary-gradient;
+    padding: 10px;
+    margin: 1rem;
+    color: white;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.btn2-style {
+    width: 115px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+    margin: 1rem;
+    color: #FA3434;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+hr {
+    margin: 0 2rem;
+    border: 1px solid #E4E4E4;
+}
+
+.mycart3-right {
+    width: 20%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mycart3-right1 {
+    width: 100%;
+    margin: 0.01rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+}
+
+.mycart3-right1 p {
+    color: #505050;
+    font-size: 16px;
+    line-height: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.border-style-two {
+    display: flex;
+    margin: 0.1rem auto;
+}
+
+.btn-style-1 {
+    background-color: white;
+    width: 164px;
+    height: 40px;
+    border-radius: 6px;
+    color: #8B96A5;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.btn-style-2 {
+    width: 85px;
+    height: 40px;
+    background-color: white;
+    border-radius: 6px;
+    color: #0D6EFD;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.mycart3-right2 {
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+}
+
+
+/* my cart 3 section ending */
+
+/* <!-- icons and headings start--> */
+.features {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.icon-ih {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #d6d9dd;
+}
+
+.icon-ih i {
+    font-size: 20px;
+    color: #5d6673;
+}
+
+.text h4 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1C;
+}
+
+.text p {
+    margin: 0;
+    font-size: 16px;
+    color: #A9ACB0;
+    line-height: 24px;
+}
+
+/* <!-- icons and heading ends--> */
+
+
+
+/* saved for later section start */
+.related-pro {
+    width: 95%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+}
+
+.related-pro .main-head {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1C1C1C;
+    font-weight: bold;
+}
+
+.card-container {
+    width: 95%;
+    margin: 0 auto;
+    /* Centering the container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Adjust space between cards */
+}
+
+.card-starts {
+    margin-bottom: 1rem;
+    width: 23%;
+    /* Adjust this according to your layout */
+    background: #fff;
+    text-align: left;
+    /* Keeps paragraphs left-aligned */
+    padding: 10px;
+    border: 1px solid #DEE2E7;
+    border-radius: 5px;
+}
+
+.card-starts img {
+    display: block;
+    width: 80%;
+    /* Adjust image width */
+    margin: 0 auto;
+    /* Centers the image */
+    height: 180px;
+}
+
+.p1,
+.p2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #1C1C1C;
+    line-height: 100%;
+}
+
+.p2 {
+    color: #8B96A5;
+    line-height: 24px;
+}
+
+.move-to-cart {
+    background-color: #DEE2E7;
+    color: #0D6EFD;
+    font-size: 16px;
+    width: 156px;
+    font-weight: bold;
+}
+
+.move-to-cart:hover {
+    color: white;
+    background-color: #3385ff;
+}
+
+/* saved for later sction end here */
