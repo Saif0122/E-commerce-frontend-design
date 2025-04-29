@@ -1,0 +1,196 @@
+/* RESPONSIVE STYLES */
+
+/* Ensure body doesn't overflow */
+body {
+    overflow-x: hidden;
+  }
+  
+  /* HEADER */
+  @media (max-width: 992px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .search-bar {
+      flex-direction: column;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto;
+    }
+  
+    .search-bar input,
+    .search-bar select,
+    .search-bar button {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+  
+    .vertical-line {
+      display: none;
+    }
+  
+    .icons {
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  
+  /* Ancor tags */
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+  /* NAVBAR */
+  @media (max-width: 768px) {
+    .main-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .main-navbar ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .main-navbar ul li {
+      width: 100%;
+    }
+  }
+  
+  /* HERO SECTION */
+  @media (max-width: 992px) {
+    .hero-section {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .sidebar,
+    .main-content,
+    .user-section {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 10px 0;
+    }
+  
+    .sidebar ul {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 0;
+      white-space: nowrap;
+    }
+  
+    .sidebar ul li {
+      min-width: fit-content;
+      padding: 10px 15px;
+    }
+  
+    .banner {
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .text-content {
+      align-items: flex-start;
+    }
+  }
+  
+  /* DEALS SECTION */
+  @media (max-width: 768px) {
+    .deals-section {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .deals-items {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .deal-card {
+      flex: 1 0 40%;
+      margin: 10px 0;
+    }
+  }
+  
+  /* GRID SECTION */
+  @media (max-width: 768px) {
+    .home-outdoor {
+      flex-direction: column;
+    }
+  
+    .left-section,
+    .grid-container {
+      width: 100%;
+    }
+  
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
+  /* CART PAGE */
+  @media (max-width: 992px) {
+    .my-cart3 {
+      flex-direction: column;
+    }
+  
+    .mycart3-left,
+    .mycart3-right {
+      width: 100% !important;
+    }
+  
+    .img-left {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .price-left-end {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .buttons-style {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  
+  /* PRODUCT DETAIL PAGE */
+  @media (max-width: 992px) {
+    .product-card {
+      grid-template-columns: 1fr;
+    }
+  
+    .product-info {
+      flex-direction: column;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100% !important;
+    }
+  }
+  
+  /* BREADCRUMBS */
+  @media (max-width: 768px) {
+    .breadcrumb {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+  }
+
+
+
+
